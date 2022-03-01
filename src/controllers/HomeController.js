@@ -19,10 +19,7 @@ exports.index = async (req, res) => {
         logger.info('-----Fim-----')
         logger.info('//////////////////////////////////////////')
         logger.info('//////////////////////////////////////////')
-
-        var shwll = new ShellObject();
-        var hproc = "C:\Windows\notepad.exe";
-        shwll.exec(hproc);
+       
         
         res.send('Ops! conteudo não esta disponivel');
     } catch (error) {
